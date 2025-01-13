@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html <class="mdui-theme-dark">
+<html class="mdui-theme-auto">
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../../css/styles.css" type="text/css"/>
-  <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+  <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css"/>
   <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
-  <script src="../../js/init.js"></script><title>imitoy's Home Page</title>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="../../js/init.js"></script>
+  <script src="../../js/markdown.js"></script>
+  <title>imitoy's Home Page</title>
 </head>
 
 <body>
   <mdui-top-app-bar scroll-behavior="elevate">
-    <mdui-top-app-bar-title>对迷你世界的解释</mdui-top-app-bar-title>
-    <!--div style="flex-grow: 1"></div-->
+    <mdui-top-app-bar-title id="title"></mdui-top-app-bar-title>
   </mdui-top-app-bar>
-  <p>希望大家理性看待这个问题。</p>
-  <p>首先，我承认迷你世界确实很受争议。个人来看，我很感谢迷你世界；最重要一点的是，是迷你世界把我引向了编程这条路，是迷你世界让我结交了很多编程领域的朋友。</p>
-  <p>我也算老玩家了吧，从它发布起就一直在玩了（那时候我还真的是一名小学生呢），走到现在也很不易。</p>
-  <p>总之……希望大家还是理性看待吧。</p>
+  <div id="container">
+    <div id="content"></div>
+  </div>
 </body>
 
 </html>
