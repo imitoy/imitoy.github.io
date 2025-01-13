@@ -1,0 +1,1 @@
+在Termux中配置gnome桌面

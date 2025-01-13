@@ -1,0 +1,55 @@
+body{
+  font-family: sans-serif;
+}
+hr{
+  border-top: 1px dashed;
+}
+p{
+  margin: 2%;
+}
+h1{
+  margin-top: 10%;
+}
+#container{
+  margin: 5%;
+}
+#name_header
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+#container_header_img{
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+#img_header{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.code{
+  margin-left:2%;
+  margin-right: 2%;
+}
+.progress{
+  margin: 15%;
+  display: flex;
+  justify-content: center;
+}
+.container_card{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card_content{
+  min-width: 200px;
+  width: 432px;
+  height: 124px;
+  margin: 16px;
+}
+.img_card{
+  max-width: 75%;
+  height: 124px;
+}
