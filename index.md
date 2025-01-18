@@ -18,4 +18,4 @@
 ## 其它
 头像只是觉得好看所以才选用的。
 
-还有，关于[为什么是迷你世界](/announcements/2/indez.html)
+还有，关于[为什么是迷你世界](/announcements/2/index.html)
