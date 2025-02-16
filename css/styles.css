@@ -1,13 +1,13 @@
 @font-face {
-  font-family: qingxin;
-  src: url(../font/QingXin.ttf);
+  font-family: imitoy;
+  src: url(../font/imitoy.ttf);
 }
 @font-face {
   font-family: droid-sans;
   src: url(../font/DroidSans.ttf);
 }
 body{
-  font-family: qingxin;
+  font-family: imitoy;
 }
 hr{
   border-top: 1px dashed;
