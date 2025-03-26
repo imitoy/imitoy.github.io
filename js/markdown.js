@@ -9,7 +9,7 @@ $(document).ready(function(){
     $.get(path.replace("index.html", "index.md"),function(response,state){
         $("#content").html(marked.parse(response));
     })
-    $.get(path.replace("index.html", "title.txt"),function(response, state){
+    $.get(path.replace("index.html", "title.md"),function(response, state){
         $("#title").text(response);
     })
 })
