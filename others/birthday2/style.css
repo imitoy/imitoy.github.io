@@ -1,0 +1,46 @@
+@keyframes fall {
+  from { transform: translateY(-10vh) rotate(0deg); }
+  to { transform: translateY(110vh) rotate(360deg); }
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: url('background.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#birthday-title {
+  position: fixed;
+  z-index: 999;
+  font-size: 4rem;
+  color: #ffffff;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+  pointer-events: none;
+}
+
+.cake {
+  position: absolute;
+  font-size: 2rem;
+  animation: fall linear 5s forwards;
+  user-select: none;
+}
+
+.blessing {
+  position: absolute;
+  font-size: 2rem;
+  color: #ff69b4;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  animation: fade 5s ease-out forwards;
+  white-space: nowrap;
+}
+
+@keyframes fade {
+  0% { opacity: 0; transform: translateY(-20px); }
+  20% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
